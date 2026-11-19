@@ -1,0 +1,14 @@
+{
+  "name": "Projeção — Lost World: Metamorfose",
+  "version": "0.1.0",
+  "manifest_version": 1,
+  "description": "Painel de PV, condições, turnos, missões e recursos para os jogadores.",
+  "author": "Mesa Metamorfose",
+  "action": {
+    "title": "Projeção",
+    "icon": "icon.svg",
+    "popover": "index.html",
+    "width": 420,
+    "height": 640
+  }
+}

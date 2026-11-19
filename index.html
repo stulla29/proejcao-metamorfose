@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projeção — Metamorfose</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="pj">
+<div class="papel">Você é: <b id="papel">…</b></div>
+
+<section id="gm" hidden>
+  <h2>Painel do Mestre</h2>
+  <p class="dica">Cole aqui o snapshot copiado do Monitor e clique em Enviar. Os jogadores veem o painel na hora.</p>
+  <textarea id="gm-json" rows="5" placeholder='{"v":1, ...}'></textarea>
+  <div id="gm-info"></div>
+  <div class="botoes">
+    <button id="gm-publicar">Enviar aos jogadores</button>
+    <button id="gm-exemplo" class="sec">Carregar exemplo</button>
+    <button id="gm-limpar" class="sec">Limpar</button>
+  </div>
+  <div id="gm-msg"></div>
+  <h3 class="prev-tit">Pré-visualização (o que o jogador vê)</h3>
+  <div id="gm-prev"></div>
+</section>
+
+<section id="jg" hidden>
+  <div id="jg-painel"></div>
+  <details class="diag"><summary>Diagnóstico</summary>
+    <button id="jg-teste" class="sec">Testar se o jogador pode escrever</button>
+    <div id="jg-teste-res"></div>
+  </details>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
