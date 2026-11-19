@@ -11,16 +11,20 @@
 
 <section id="gm" hidden>
   <h2>Painel do Mestre</h2>
-  <p class="dica">Cole aqui o snapshot copiado do Monitor e clique em Enviar. Os jogadores veem o painel na hora.</p>
-  <textarea id="gm-json" rows="5" placeholder='{"v":1, ...}'></textarea>
-  <div id="gm-info"></div>
-  <div class="botoes">
-    <button id="gm-publicar">Enviar aos jogadores</button>
-    <button id="gm-exemplo" class="sec">Carregar exemplo</button>
-    <button id="gm-limpar" class="sec">Limpar</button>
-  </div>
+  <details id="gm-colar">
+    <summary>Colar snapshot do Monitor</summary>
+    <p class="dica">Cole aqui o snapshot copiado do Monitor: ele é enviado na hora aos jogadores. Colar de novo substitui o estado anterior.</p>
+    <textarea id="gm-json" rows="4" placeholder='{"v":1, ...}'></textarea>
+    <div id="gm-info"></div>
+    <div class="botoes">
+      <button id="gm-publicar">Enviar aos jogadores</button>
+      <button id="gm-exemplo" class="sec">Carregar exemplo</button>
+      <button id="gm-limpar" class="sec">Limpar</button>
+    </div>
+  </details>
   <div id="gm-msg"></div>
-  <h3 class="prev-tit">Pré-visualização (o que o jogador vê)</h3>
+  <div id="gm-ordem"></div>
+  <h3 class="prev-tit">Personagens (ajuste PV, Tensão e condições aqui)</h3>
   <div id="gm-prev"></div>
 </section>
 

@@ -31,3 +31,20 @@ html,body{margin:0;background:#0a0202}
 .pj #gm-msg.ok{ color:#7fd17f; margin-top:6px; } .pj #gm-msg.erro{ color:#ff9a9a; margin-top:6px; }
 .pj .prev-tit{ margin:18px 0 8px; font-weight:normal; color:#a88b52; font-size:.8rem; letter-spacing:2px; }
 .pj .diag{ margin-top:22px; font-size:.8rem; color:#8a7a56; } .pj #jg-teste-res{ margin-top:6px; color:#d8c89b; }
+.pj details summary{ cursor:pointer; color:#e8cf8a; font-size:.9rem; margin-bottom:6px; }
+.pj .botoes{ display:flex; flex-wrap:wrap; gap:0; align-items:center; }
+.pj input[type=text]{ background:#120505; color:#f0e2bd; border:1px solid rgba(201,162,74,.4); padding:6px; font-family:inherit; flex:1; min-width:120px; margin-top:6px; }
+.pj .ord-lista{ display:flex; flex-direction:column; gap:4px; }
+.pj .ord-lin{ display:flex; align-items:center; gap:4px; padding:3px 6px; border:1px solid rgba(201,162,74,.3); background:#1d0707; }
+.pj .ord-lin.vez{ background:#8a6a10; border-color:#ffd24a; }
+.pj .ord-lin .ord-n{ flex:1; font-size:1rem; }
+.pj .ord-lin button{ margin:0; padding:2px 8px; background:#1d0707; border-color:rgba(201,162,74,.45); }
+.pj .pj-adj{ display:flex; gap:6px; margin-top:4px; }
+.pj .pj-adj button{ margin:0; padding:2px 0; flex:1; background:#1d0707; border-color:rgba(201,162,74,.45); font-size:.85rem; }
+.pj .pj-adj button:hover{ background:#8a6a10; }
+.pj .pj-aj{ margin-top:14px; padding:8px 10px; border:1px solid #d9a020; background:#2a1a08; font-size:.85rem; color:#f0d9a0; }
+.pj .pj-cd{ grid-column:1 / -1; margin-top:6px; } .pj .pj-cd summary{ font-size:.8rem; color:#b59a5c; }
+.pj .pj-chips{ display:flex; flex-wrap:wrap; gap:4px; margin:6px 0; }
+.pj .pj-chips .chip{ margin:0; padding:2px 8px; font-size:.78rem; border-radius:12px; background:#1d0707; border-color:rgba(201,162,74,.35); color:#d8c89b; }
+.pj .pj-chips .chip.on{ background:#8a6a10; border-color:#ffd24a; color:#fff; }
+.pj .pj-cdur{ display:block; font-size:.85rem; margin:3px 0; color:#d8c89b; } .pj .pj-cdur input{ width:52px; background:#120505; color:#f0e2bd; border:1px solid rgba(201,162,74,.4); padding:2px 4px; } .pj .pj-cdur small{ color:#8a7a56; }
