@@ -6,8 +6,8 @@
   "author": "Mesa Metamorfose",
   "action": {
     "title": "Projeção",
-    "icon": "icon.svg",
-    "popover": "index.html",
+    "icon": "/proejcao-metamorfose/icon.svg",
+    "popover": "/proejcao-metamorfose/index.html",
     "width": 420,
     "height": 640
   }
